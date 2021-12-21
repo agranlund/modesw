@@ -19,7 +19,7 @@ and **Demos** that aren't using **GEM**.
 
 ---
 
-**Program:** ⸢ [PRG] ⸥ ⸢ [INF] ⸥
+**Program: ⸢ [PRG] ⸥ ⸢ [INF] ⸥**
 
 ---
 
