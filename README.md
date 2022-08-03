@@ -1,6 +1,11 @@
 
+<br>
 
-# Automatic Screen         ![Badge Version] <br> Resolution Switcher
+<div align = center>
+
+![Badge Version]
+
+# Automatic Screen  <br> Resolution Switcher
 
 This program allows starting `ST-Low` resolution <br>
 color games from various environments.
@@ -10,6 +15,8 @@ and **Demos** that aren't using **GEM**.
 
 *The video mode is automatically switched when* <br>
 *applications are launched and restored afterwards.*
+
+</div>
 
 <br>
 <br>
@@ -43,6 +50,8 @@ Place `MODESW.PRG` & `MODESW.INF` into the `AUTO` folder.
 This program *must be run* ***before*** any program <br>
 listed in the configuration you are using.
 
+<br>
+
 | Default |     ET4000     |    LaceScan    |
 |:-------:|:--------------:|:--------------:|
 |         | `nvdi.prg`     | `lacescan.prg` |
@@ -57,6 +66,8 @@ listed in the configuration you are using.
 You can edit the  `MODESW.INF`  file to specify <br>
 `folders / files`  that will automatically <br>
 activate this program.
+
+<br>
 
 -   Up to `256` rules
 
