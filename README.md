@@ -5,12 +5,14 @@
 
 ![Badge Version]
 
+<br>
+
 # Automatic Screen  <br> Resolution Switcher
 
-This program allows starting `ST-Low` resolution <br>
+This program allows starting  `ST-Low`  resolution <br>
 color games from various environments.
 
-It is intended for `fullscreen` **Games** <br>
+It is intended for  `fullscreen`  **Games** <br>
 and **Demos** that aren't using **GEM**.
 
 *The video mode is automatically switched when* <br>
