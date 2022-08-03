@@ -1,12 +1,6 @@
 
-[Ubeswitch]: https://github.com/planeturban/ubeswitchmk6
 
-[PRG]: Release/MODESW.PRG
-[INF]: Release/MODESW.INF
-
-
-# Automatic Screen Resolution Switcher
-*Version 201127*
+# Automatic Screen         ![Badge Version] <br> Resolution Switcher
 
 This program allows starting `ST-Low` resolution <br>
 color games from various environments.
@@ -17,22 +11,30 @@ and **Demos** that aren't using **GEM**.
 *The video mode is automatically switched when* <br>
 *applications are launched and restored afterwards.*
 
----
+<br>
+<br>
 
-**Program: ⸢ [PRG] ⸥ ⸢ [INF] ⸥**
+## Releases
 
----
+- [`MODESW.INF`][INF]
+
+- [`MODESW.PRG`][PRG]
+
+<br>
+<br>
 
 ## Supported Environments
 
-- **Mono** desktops using **[Ubeswitch]**
+-   **Overscan** desktops using `LaceScan` cards.   *Experimental*
 
-- **Graphical** desktops using `ET4000` cards
+-   **Graphical** desktops using `ET4000` cards.
 
-- **Overscan** desktops using `LaceScan` cards <br>
-  ( *experimental* )
+-   **Mono** desktops using **[Ubeswitch]**.
 
----
+
+
+<br>
+<br>
 
 ## Usage
 
@@ -47,28 +49,60 @@ listed in the configuration you are using.
 |         | `redirect.prg` |                |
 |         | `slct_dev.prg` |                |
 
----
+<br>
+<br>
 
 ## Selective Activation
 
-You can edit the `MODESW.INF` file to <br>
-specify `folders / files` that will <br>
-automatically activate this program.
+You can edit the  `MODESW.INF`  file to specify <br>
+`folders / files`  that will automatically <br>
+activate this program.
 
-- Up to `256` rules
-- One rule per line
-- Each line must start with `00 `<br>
-  followed by the search string
+-   Up to `256` rules
+
+-   One rule per line
+
+-   Each line must start with `00` <br>
+    followed by the search string
 
 <br>
 
-**Example Rules**
+### Example Rules
 
-All programs launched from `F:` <br>
-`00 F:\`
+All programs launched from `F:`
+
+```
+00 F:\
+```
+
+<br>
 
 All programs launched from the `GAMES` directory <br>
-`00 \GAMES\`
+
+```
+00 \GAMES\
+```
+
+<br>
 
 All programs called `MYGAME.PRG` located anywhere <br>
-`00 \MYGAME.PRG`
+
+```
+00 \MYGAME.PRG
+```
+
+<br>
+
+
+<!----------------------------------------------------------------------------->
+
+[Ubeswitch]: https://github.com/planeturban/ubeswitchmk6
+
+[PRG]: Release/MODESW.PRG
+[INF]: Release/MODESW.INF
+
+
+<!----------------------------------[ Badges ]--------------------------------->
+
+[Badge Version]: https://img.shields.io/badge/Version-201127-7a1a43.svg?style=for-the-badge&labelColor=A9225C
+
