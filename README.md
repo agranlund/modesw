@@ -3,6 +3,7 @@
 
 <div align = center>
 
+[![Badge License]][License]   
 ![Badge Version]
 
 <br>
@@ -111,6 +112,7 @@ All programs called `MYGAME.PRG` located anywhere <br>
 
 [Ubeswitch]: https://github.com/planeturban/ubeswitchmk6
 
+[License]: LICENSE
 [PRG]: Release/MODESW.PRG
 [INF]: Release/MODESW.INF
 
@@ -118,4 +120,4 @@ All programs called `MYGAME.PRG` located anywhere <br>
 <!----------------------------------[ Badges ]--------------------------------->
 
 [Badge Version]: https://img.shields.io/badge/Version-201127-7a1a43.svg?style=for-the-badge&labelColor=A9225C
-
+[Badge License]: https://img.shields.io/badge/License-GPL2-015d93.svg?style=for-the-badge&labelColor=blue
